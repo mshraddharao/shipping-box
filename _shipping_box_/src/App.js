@@ -1,4 +1,3 @@
-//import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NavBar from './components/navbar';
 import ShippingForm from './views/ShippingForm';
@@ -7,8 +6,6 @@ import ListShippings from './views/ListShippings';
 function App() {
   return (
     <div className="App">
-    {/* <NavBar />
-    <ShippingForm /> */}
       <Router>
         <Switch>
           <Route exact path="/">
